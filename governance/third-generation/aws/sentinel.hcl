@@ -19,10 +19,10 @@ policy "enforce-mandatory-tags" {
   enforcement_level = "advisory"
 }
 
-policy "require-private-acl-and-kms-for-s3-buckets" {
-  source = "./require-private-acl-and-kms-for-s3-buckets.sentinel"
-  enforcement_level = "advisory"
-}
+# policy "require-private-acl-and-kms-for-s3-buckets" {
+#   source = "./require-private-acl-and-kms-for-s3-buckets.sentinel"
+#   enforcement_level = "advisory"
+# }
 
 policy "restrict-ami-owners" {
   source = "./restrict-ami-owners.sentinel"
@@ -49,10 +49,10 @@ policy "restrict-current-ec2-instance-type" {
   enforcement_level = "advisory"
 }
 
-policy "restrict-db-instance-engines" {
-  source = "./restrict-db-instance-engines.sentinel"
-  enforcement_level = "advisory"
-}
+# policy "restrict-db-instance-engines" {
+#   source = "./restrict-db-instance-engines.sentinel"
+#   enforcement_level = "advisory"
+# }
 
 policy "restrict-ec2-instance-type" {
   source = "./restrict-ec2-instance-type.sentinel"
